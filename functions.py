@@ -10,7 +10,7 @@ plot = pygame.display.set_mode((width, height))
 
 grid_val  = {}
 state_action = {}
-pit_val,reward_val = {(3,1):-4,(3,3):-2,(1,2):-5},{(4,4):10,(0,4):1}
+pit_val,reward_val = {(3,1):-4,(3,3):-2,(1,2):-5},{(4,4):10,(2,4):1}
 man_pos_x ,man_pos_y= (2,2)
 learning_rate = 0.01
 discount = 0.95
